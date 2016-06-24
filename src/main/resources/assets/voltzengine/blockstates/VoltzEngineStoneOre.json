@@ -1,0 +1,64 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "blocks/stone"
+    },
+    "model": "cube_all",
+    "uvlock": true
+  },
+  "variants": {
+    "meta": {
+      "A": {
+        "textures": {
+          "texture": "voltzengine:blocks/ore/stone/tin"
+        }
+      },
+      "B": {
+        "textures": {
+          "texture": "voltzengine:blocks/ore/stone/copper"
+        }
+      },
+      "C": {
+        "textures": {
+          "texture": "voltzengine:blocks/ore/stone/silver"
+        }
+      },
+      "D": {
+        "textures": {
+          "texture": "voltzengine:blocks/ore/stone/lead"
+        }
+      },
+      "E": {
+        "textures": {
+          "texture": "voltzengine:blocks/ore/stone/zinc"
+        }
+      },
+      "F": {
+        "textures": {
+          "texture": "voltzengine:blocks/ore/stone/nickel"
+        }
+      },
+      "G": {
+        "textures": {
+          "texture": "voltzengine:blocks/ore/stone/bauxite"
+        }
+      },
+      "H": {
+        "textures": {
+          "texture": "voltzengine:blocks/ore/stone/magesite"
+        }
+      },
+      "I": {
+        "textures": {
+          "texture": "voltzengine:blocks/ore/stone/uranium"
+        }
+      },
+      "J": {
+        "textures": {
+          "texture": "voltzengine:blocks/ore/stone/platinum"
+        }
+      }
+    }
+  }
+}
