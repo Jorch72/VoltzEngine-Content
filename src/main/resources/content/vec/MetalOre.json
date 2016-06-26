@@ -151,7 +151,7 @@
   ],
   "blockData": {
     "name": "VoltzEngineStoneOre",
-    "localization": "tile.${domain}.ore${meta}",
+    "localization": "tile.${domain}.ore${metaLocalization}",
     "hardness": 1.5,
     "resistance": 10.0,
     "material": "rock",
@@ -161,8 +161,9 @@
     "canDisable": "true",
     "disableConfigCat": "Content",
     "disableConfigName": "LoadOres",
-    "disableConfigDesc": "Loads the metallic ore blocks and their generators. Ore Generation can be disable separate if you want to keep the block for legacy purposes.",
+    "disableConfigDesc": "When set to false it will load the metallic ore blocks, recipes, and world generators. Ore Generation can be disable separate if you want to keep the block.",
     "requestToLoad": "true",
+    "requestEntry": "ore",
     "textureType": "meta"
   }
 }
