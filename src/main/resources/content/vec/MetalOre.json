@@ -151,7 +151,7 @@
   ],
   "blockData": {
     "name": "VoltzEngineStoneOre",
-    "localization": "tile.${domain}.ore${metaLocalization}",
+    "localization": "tile.${domain}:ore${metaLocalization}",
     "hardness": 1.5,
     "resistance": 10.0,
     "material": "rock",
