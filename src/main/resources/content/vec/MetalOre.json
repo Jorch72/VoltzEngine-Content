@@ -1,154 +1,4 @@
 {
-  "subtypes": [
-    {
-      "meta": 0,
-      "localization": "Tin",
-      "worldGenerator": {
-        "Type": "StoneOre",
-        "MinY": 15,
-        "MaxY": 60,
-        "BranchSize": 5,
-        "ChunkLimit": 15
-      },
-      "smeltingRecipe": {
-        "output": "ingotTin",
-        "xp": 0.01
-      }
-    },
-    {
-      "meta": 1,
-      "localization": "Copper",
-      "worldGenerator": {
-        "Type": "StoneOre",
-        "MinY": 15,
-        "MaxY": 60,
-        "BranchSize": 5,
-        "ChunkLimit": 20
-      },
-      "smeltingRecipe": {
-        "output": "ingotCopper",
-        "xp": 0.01
-      }
-    },
-    {
-      "meta": 2,
-      "localization": "Silver",
-      "worldGenerator": {
-        "Type": "StoneOre",
-        "MinY": 15,
-        "MaxY": 60,
-        "BranchSize": 5,
-        "ChunkLimit": 4
-      },
-      "smeltingRecipe": {
-        "output": "ingotSilver",
-        "xp": 0.01
-      }
-    },
-    {
-      "meta": 3,
-      "localization": "Lead",
-      "worldGenerator": {
-        "Type": "StoneOre",
-        "MinY": 15,
-        "MaxY": 60,
-        "BranchSize": 5,
-        "ChunkLimit": 15
-      },
-      "smeltingRecipe": {
-        "output": "ingotLead",
-        "xp": 0.01
-      }
-    },
-    {
-      "meta": 4,
-      "localization": "Zinc",
-      "worldGenerator": {
-        "Type": "StoneOre",
-        "MinY": 20,
-        "MaxY": 40,
-        "BranchSize": 5,
-        "ChunkLimit": 20
-      },
-      "smeltingRecipe": {
-        "output": "ingotZinc",
-        "xp": 0.01
-      }
-    },
-    {
-      "meta": 5,
-      "localization": "Nickel",
-      "worldGenerator": {
-        "Type": "StoneOre",
-        "MinY": 15,
-        "MaxY": 60,
-        "BranchSize": 5,
-        "ChunkLimit": 8
-      },
-      "smeltingRecipe": {
-        "output": "ingotNickel",
-        "xp": 0.01
-      }
-    },
-    {
-      "meta": 6,
-      "localization": "Bauxite",
-      "oreName": "oreAluminum",
-      "worldGenerator": {
-        "Type": "StoneOre",
-        "MinY": 15,
-        "MaxY": 60,
-        "BranchSize": 5,
-        "ChunkLimit": 10
-      },
-      "smeltingRecipe": {
-        "output": "ingotAluminum",
-        "xp": 0.01
-      }
-    },
-    {
-      "meta": 7,
-      "localization": "Magesite",
-      "oreName": "oreMagnesium",
-      "worldGenerator": {
-        "Type": "StoneOre",
-        "MinY": 5,
-        "MaxY": 10,
-        "BranchSize": 3,
-        "ChunkLimit": 6
-      },
-      "smeltingRecipe": {
-        "output": "ingotMagnesium",
-        "xp": 0.01
-      }
-    },
-    {
-      "meta": 8,
-      "localization": "Uranium",
-      "worldGenerator": {
-        "Type": "StoneOre",
-        "MinY": 5,
-        "MaxY": 30,
-        "BranchSize": 2,
-        "ChunkLimit": 4
-      }
-    },
-    {
-      "meta": 9,
-      "localization": "Platinum",
-      "worldGenerator": {
-        "Type": "StoneOre",
-        "MinY": 15,
-        "MaxY": 60,
-        "BranchSize": 3,
-        "ChunkLimit": 10
-      },
-      "smeltingRecipe": {
-        "output": "ingotPlatinum",
-        "xp": 0.01
-      }
-    }
-  ],
   "blockData": {
     "name": "VoltzEngineStoneOre",
     "localization": "tile.${domain}:ore${metaLocalization}",
@@ -164,6 +14,156 @@
     "disableConfigDesc": "When set to false it will load the metallic ore blocks, recipes, and world generators. Ore Generation can be disable separate if you want to keep the block.",
     "requestToLoad": "true",
     "requestEntry": "ore",
-    "textureType": "meta"
+    "textureType": "meta",
+    "subtypes": [
+      {
+        "meta": 0,
+        "localization": "Tin",
+        "worldGenerator": {
+          "Type": "StoneOre",
+          "MinY": 15,
+          "MaxY": 60,
+          "BranchSize": 5,
+          "ChunkLimit": 15
+        },
+        "smeltingRecipe": {
+          "output": "ingotTin",
+          "xp": 0.01
+        }
+      },
+      {
+        "meta": 1,
+        "localization": "Copper",
+        "worldGenerator": {
+          "Type": "StoneOre",
+          "MinY": 15,
+          "MaxY": 60,
+          "BranchSize": 5,
+          "ChunkLimit": 20
+        },
+        "smeltingRecipe": {
+          "output": "ingotCopper",
+          "xp": 0.01
+        }
+      },
+      {
+        "meta": 2,
+        "localization": "Silver",
+        "worldGenerator": {
+          "Type": "StoneOre",
+          "MinY": 15,
+          "MaxY": 60,
+          "BranchSize": 5,
+          "ChunkLimit": 4
+        },
+        "smeltingRecipe": {
+          "output": "ingotSilver",
+          "xp": 0.01
+        }
+      },
+      {
+        "meta": 3,
+        "localization": "Lead",
+        "worldGenerator": {
+          "Type": "StoneOre",
+          "MinY": 15,
+          "MaxY": 60,
+          "BranchSize": 5,
+          "ChunkLimit": 15
+        },
+        "smeltingRecipe": {
+          "output": "ingotLead",
+          "xp": 0.01
+        }
+      },
+      {
+        "meta": 4,
+        "localization": "Zinc",
+        "worldGenerator": {
+          "Type": "StoneOre",
+          "MinY": 20,
+          "MaxY": 40,
+          "BranchSize": 5,
+          "ChunkLimit": 20
+        },
+        "smeltingRecipe": {
+          "output": "ingotZinc",
+          "xp": 0.01
+        }
+      },
+      {
+        "meta": 5,
+        "localization": "Nickel",
+        "worldGenerator": {
+          "Type": "StoneOre",
+          "MinY": 15,
+          "MaxY": 60,
+          "BranchSize": 5,
+          "ChunkLimit": 8
+        },
+        "smeltingRecipe": {
+          "output": "ingotNickel",
+          "xp": 0.01
+        }
+      },
+      {
+        "meta": 6,
+        "localization": "Bauxite",
+        "oreName": "oreAluminum",
+        "worldGenerator": {
+          "Type": "StoneOre",
+          "MinY": 15,
+          "MaxY": 60,
+          "BranchSize": 5,
+          "ChunkLimit": 10
+        },
+        "smeltingRecipe": {
+          "output": "ingotAluminum",
+          "xp": 0.01
+        }
+      },
+      {
+        "meta": 7,
+        "localization": "Magesite",
+        "oreName": "oreMagnesium",
+        "worldGenerator": {
+          "Type": "StoneOre",
+          "MinY": 5,
+          "MaxY": 10,
+          "BranchSize": 3,
+          "ChunkLimit": 6
+        },
+        "smeltingRecipe": {
+          "output": "ingotMagnesium",
+          "xp": 0.01
+        }
+      },
+      {
+        "meta": 8,
+        "localization": "Uranium",
+        "worldGenerator": {
+          "Type": "StoneOre",
+          "MinY": 5,
+          "MaxY": 30,
+          "BranchSize": 2,
+          "ChunkLimit": 4
+        }
+      },
+      {
+        "meta": 9,
+        "localization": "Platinum",
+        "worldGenerator": {
+          "Type": "StoneOre",
+          "MinY": 15,
+          "MaxY": 60,
+          "BranchSize": 3,
+          "ChunkLimit": 10
+        },
+        "smeltingRecipe": {
+          "output": "ingotPlatinum",
+          "xp": 0.01
+        }
+      }
+    ]
   }
 }
