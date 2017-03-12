@@ -20,11 +20,11 @@
         "meta": 0,
         "localization": "Tin",
         "worldGenerator": {
-          "Type": "StoneOre",
-          "MinY": 15,
-          "MaxY": 60,
-          "BranchSize": 5,
-          "ChunkLimit": 15
+          "type": "StoneOre",
+          "minY": 15,
+          "maxY": 60,
+          "branchSize": 5,
+          "chunkLimit": 15
         },
         "smeltingRecipe": {
           "output": "ingotTin",
@@ -35,11 +35,11 @@
         "meta": 1,
         "localization": "Copper",
         "worldGenerator": {
-          "Type": "StoneOre",
-          "MinY": 15,
-          "MaxY": 60,
-          "BranchSize": 5,
-          "ChunkLimit": 20
+          "type": "StoneOre",
+          "minY": 15,
+          "maxY": 60,
+          "branchSize": 5,
+          "chunkLimit": 20
         },
         "smeltingRecipe": {
           "output": "ingotCopper",
@@ -50,11 +50,11 @@
         "meta": 2,
         "localization": "Silver",
         "worldGenerator": {
-          "Type": "StoneOre",
-          "MinY": 15,
-          "MaxY": 60,
-          "BranchSize": 5,
-          "ChunkLimit": 4
+          "type": "StoneOre",
+          "minY": 15,
+          "maxY": 60,
+          "branchSize": 5,
+          "chunkLimit": 4
         },
         "smeltingRecipe": {
           "output": "ingotSilver",
@@ -65,11 +65,11 @@
         "meta": 3,
         "localization": "Lead",
         "worldGenerator": {
-          "Type": "StoneOre",
-          "MinY": 15,
-          "MaxY": 60,
-          "BranchSize": 5,
-          "ChunkLimit": 15
+          "type": "StoneOre",
+          "minY": 15,
+          "maxY": 60,
+          "branchSize": 5,
+          "chunkLimit": 15
         },
         "smeltingRecipe": {
           "output": "ingotLead",
@@ -80,11 +80,11 @@
         "meta": 4,
         "localization": "Zinc",
         "worldGenerator": {
-          "Type": "StoneOre",
-          "MinY": 20,
-          "MaxY": 40,
-          "BranchSize": 5,
-          "ChunkLimit": 20
+          "type": "StoneOre",
+          "minY": 20,
+          "maxY": 40,
+          "branchSize": 5,
+          "chunkLimit": 20
         },
         "smeltingRecipe": {
           "output": "ingotZinc",
@@ -95,11 +95,11 @@
         "meta": 5,
         "localization": "Nickel",
         "worldGenerator": {
-          "Type": "StoneOre",
-          "MinY": 15,
-          "MaxY": 60,
-          "BranchSize": 5,
-          "ChunkLimit": 8
+          "type": "StoneOre",
+          "minY": 15,
+          "maxY": 60,
+          "branchSize": 5,
+          "chunkLimit": 8
         },
         "smeltingRecipe": {
           "output": "ingotNickel",
@@ -111,11 +111,11 @@
         "localization": "Bauxite",
         "oreName": "oreAluminum",
         "worldGenerator": {
-          "Type": "StoneOre",
-          "MinY": 15,
-          "MaxY": 60,
-          "BranchSize": 5,
-          "ChunkLimit": 10
+          "type": "StoneOre",
+          "minY": 15,
+          "maxY": 60,
+          "branchSize": 5,
+          "chunkLimit": 10
         },
         "smeltingRecipe": {
           "output": "ingotAluminum",
@@ -127,11 +127,11 @@
         "localization": "Magesite",
         "oreName": "oreMagnesium",
         "worldGenerator": {
-          "Type": "StoneOre",
-          "MinY": 5,
-          "MaxY": 10,
-          "BranchSize": 3,
-          "ChunkLimit": 6
+          "type": "StoneOre",
+          "minY": 5,
+          "maxY": 10,
+          "branchSize": 3,
+          "chunkLimit": 6
         },
         "smeltingRecipe": {
           "output": "ingotMagnesium",
@@ -142,22 +142,22 @@
         "meta": 8,
         "localization": "Uranium",
         "worldGenerator": {
-          "Type": "StoneOre",
-          "MinY": 5,
-          "MaxY": 30,
-          "BranchSize": 2,
-          "ChunkLimit": 4
+          "type": "StoneOre",
+          "minY": 5,
+          "maxY": 30,
+          "branchSize": 2,
+          "chunkLimit": 4
         }
       },
       {
         "meta": 9,
         "localization": "Platinum",
         "worldGenerator": {
-          "Type": "StoneOre",
-          "MinY": 15,
-          "MaxY": 60,
-          "BranchSize": 3,
-          "ChunkLimit": 10
+          "type": "StoneOre",
+          "minY": 15,
+          "maxY": 60,
+          "branchSize": 3,
+          "chunkLimit": 10
         },
         "smeltingRecipe": {
           "output": "ingotPlatinum",
